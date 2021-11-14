@@ -11,7 +11,6 @@ namespace MemShop.OrderManagement.Domain.Entities.Customers
         public string Adresse { get; set; }
         public int ZipCode { get; set; }
         public CustomerType CustomerType { get; set; }
-        public Guid CustomerTypeId { get; set; }
 
     }
 }
