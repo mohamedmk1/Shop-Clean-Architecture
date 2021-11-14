@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F8E2BD54-52B2-40C2-B41F-F9B41A7F1A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D145B2ED-E7CD-4244-9EC9-D7B7F204821C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9FE80C34-0656-49ED-9EBF-27AD9C176F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EE4D48D7-5218-45DA-BFE9-DEFE4E45B0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemShop.OrderManagement.Domain", "MemShop.OrderManagement.Domain\MemShop.OrderManagement.Domain.csproj", "{0FF3510D-4C34-467C-AB10-86594CC66A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemShop.OrderManagement.Application", "MemShop.OrderManagement.Application\MemShop.OrderManagement.Application.csproj", "{4849389B-F68B-4702-B1D6-8AE453C5C1EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF3510D-4C34-467C-AB10-86594CC66A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF3510D-4C34-467C-AB10-86594CC66A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF3510D-4C34-467C-AB10-86594CC66A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF3510D-4C34-467C-AB10-86594CC66A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4849389B-F68B-4702-B1D6-8AE453C5C1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4849389B-F68B-4702-B1D6-8AE453C5C1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4849389B-F68B-4702-B1D6-8AE453C5C1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4849389B-F68B-4702-B1D6-8AE453C5C1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FF3510D-4C34-467C-AB10-86594CC66A91} = {D145B2ED-E7CD-4244-9EC9-D7B7F204821C}
+		{4849389B-F68B-4702-B1D6-8AE453C5C1EF} = {D145B2ED-E7CD-4244-9EC9-D7B7F204821C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDE06072-59BD-4999-89F5-931FEE670F83}
+	EndGlobalSection
+EndGlobal
