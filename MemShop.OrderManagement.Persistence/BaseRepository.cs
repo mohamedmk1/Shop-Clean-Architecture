@@ -5,7 +5,7 @@ namespace MemShop.OrderManagement.Persistence
 {
     public class BaseRepository<T> : IAsyncRepository<T> where T : class
     {
-        private readonly OrderManagementDbContext _dbContext;
+        protected readonly OrderManagementDbContext _dbContext;
 
         public BaseRepository(OrderManagementDbContext dbContext)
         {
